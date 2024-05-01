@@ -1,7 +1,6 @@
 import capgemini from "../assets/images/capgemini.png";
 import nsu from "../assets/images/nsu.png";
 import {
-    car,
     selenium,
     contact,
     css,
@@ -15,7 +14,6 @@ import {
     mongodb,
     nextjs,
     nodejs,
-    pricewise,
     react,
     tailwindcss,
 } from "../assets/icons";
@@ -97,6 +95,19 @@ export const experiences = [
             "Identifying the defects and proper logging, tracking, retesting and closure of defects in JIRA.",
         ],
     },
+];
+
+export const socialLinks = [
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/suraj-singh-933427174/',
+    }
 ];
 
 export const projects = [
